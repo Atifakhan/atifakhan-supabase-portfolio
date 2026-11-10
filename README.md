@@ -33,7 +33,7 @@ The connected project already has this migration applied. For future changes, co
 1. Push the repository to GitHub.
 2. Enable GitHub Pages with **GitHub Actions** as the source.
 3. The workflow at `.github/workflows/pages.yml` deploys this static site on pushes to `main`.
-4. A public Pages site requires repository visibility and an account plan that support Pages. Keep the repository private unless its visibility is explicitly confirmed.
+4. A public Pages site requires repository visibility and an account plan that support Pages. This repository is public by your choice; keep future commits free of secrets and private event materials.
 
 The portfolio frontend is hosted separately from Supabase; Supabase provides the database and API. Supabase's GitHub integration can deploy database migrations and other Supabase resources from the repository.
 
