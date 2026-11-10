@@ -98,7 +98,12 @@ async function loadEvents() {
     const response = await fetch(endpoint, { headers: { apikey: config.publishableKey, Authorization: `Bearer ${config.publishableKey}` } });
     if (!response.ok) throw new Error("Event API request failed");
     const events = await response.json();
-    renderEvents(events.length ? events : fallbackEvents);
+    const combined = new Map();
+    [...events, ...fallbackEvents].forEach(event => {
+      const key = safeHttpsUrl(event.source_url);
+      if (!combined.has(key)) combined.set(key, event);
+    });
+    renderEvents([...combined.values()]);
   } catch {
     if (eventStatus) eventStatus.textContent = "Showing the local event preview while the community database is unavailable.";
   }
