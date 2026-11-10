@@ -17,7 +17,7 @@ The key in that file is a Supabase publishable key designed for frontend use, no
 
 ## Supabase setup
 
-The migrations create the public portfolio-events table and add the sourced University of Peshawar Supabase Meetup and Clerk Meetup Peshawar community spotlight. RLS grants visitors read access to published rows only; there is no anonymous insert, update, or delete access.
+The migrations create the public portfolio-events table and add the sourced University of Peshawar Supabase Meetup, Clerk Meetup Peshawar, and Cerebras Cafe Compute Peshawar community spotlights. RLS grants visitors read access to published rows only; there is no anonymous insert, update, or delete access.
 
 The connected project already has this migration applied. For future changes, connect the repository using Supabase's GitHub integration so reviewed migrations can be deployed from the selected branch.
 
@@ -28,6 +28,7 @@ The connected project already has this migration applied. For future changes, co
 - Event listing and poster: [Supabase Meetup — Peshawar on Luma](https://luma.com/05jqtxqm).
 - Community link: [Supabase Peshawar on LinkedIn](https://www.linkedin.com/company/supabase-peshawar/).
 - Clerk community spotlight and poster: [Clerk Meetup Peshawar on Luma](https://luma.com/6fx4d1g4). The card reports the event listing and does not claim Atif hosted it.
+- Cerebras community spotlight and poster: [Cafe Compute Meetup — Peshawar on Luma](https://luma.com/b7neseu3). The card reports the public listing and does not claim Atif hosted it.
 - Other campus names and the broader organizer role came from the portfolio owner's description. Add event-specific dates, photos, and source links as they are confirmed.
 
 ## Publish the frontend
