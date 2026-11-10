@@ -105,7 +105,8 @@ async function loadEvents() {
     });
     renderEvents([...combined.values()]);
   } catch {
-    if (eventStatus) eventStatus.textContent = "Showing the local event preview while the community database is unavailable.";
+    renderEvents(fallbackEvents);
+    if (eventStatus) eventStatus.textContent = "Showing sourced event previews while the community database is unavailable.";
   }
 }
 
