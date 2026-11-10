@@ -15,3 +15,49 @@
 
 .brand-name{font-size:10px;letter-spacing:.12em}.brand-name small{letter-spacing:.14em}
 @media(max-width:650px){.brand-name{font-size:9px;letter-spacing:.1em}}
+
+/* Readability pass: raise supporting copy and small labels across screen sizes. */
+body{font-size:17px;line-height:1.7}
+.nav,.header-cta{font-size:13px}
+.eyebrow{font-size:11px;letter-spacing:.12em}
+.hero-lede{font-size:17px;line-height:1.75}
+.hero-credentials{font-size:13px;line-height:1.75}
+.button{font-size:13px}
+.hero-note{font-size:13px}
+.float{font-size:12px}.float strong{font-size:13px}.float small{font-size:11px}
+.hero-foot{font-size:10px;letter-spacing:.1em}
+.section-label{font-size:10px;letter-spacing:.12em}
+.intro-copy{font-size:16px;line-height:1.75}.intro-copy .lead{font-size:19px;line-height:1.6}
+.principles h3{font-size:16px}.principles p{font-size:14px;line-height:1.65}
+.work-head>p,.campus-head p,.experience-head>p{font-size:16px;line-height:1.75}
+.badge{font-size:9px}.event-meta{font-size:10px;line-height:1.5}.event-info p,.event-note p{font-size:13px;line-height:1.75}
+.pill{font-size:11px}.event-bottom a{font-size:12px}.status{font-size:12px}
+.campus-list small{font-size:12px}.campus-list strong{font-size:16px}.campus-list span{font-size:10px;letter-spacing:.09em}.campus-note{font-size:14px;line-height:1.6}
+.timeline article>span{font-size:11px}.timeline h3{font-size:16px}.timeline p{font-size:14px;line-height:1.75}
+.education-card>small,.team-card>small{font-size:10px}.education-card>div b{font-size:14px}.education-card>div span{font-size:12px}.skill-label{font-size:9px}.skill-chips li{font-size:11px}
+.team-card p{font-size:15px;line-height:1.8}.team-foot{font-size:9px}.team-side li{font-size:14px}.team-side li i{font-size:10px}
+.contact-grid>div+div>p{font-size:16px;line-height:1.75}.contact-links a{font-size:13px}
+.account-grid strong{font-size:13px}.account-grid small{font-size:11px}.footer{font-size:12px}
+@media(max-width:650px){
+ body{font-size:16px}
+ .hero h1{font-size:clamp(39px,10vw,56px)}
+ .hero-lede{font-size:16px;line-height:1.75}
+ .hero-credentials{font-size:12px}
+ .hero-note{font-size:12px}
+ .hero-foot{font-size:9px;letter-spacing:.06em}
+ .section-label{font-size:9px;letter-spacing:.08em;gap:7px}
+ .intro-copy{font-size:15px;line-height:1.75}.intro-copy .lead{font-size:18px}
+ .principles p{font-size:14px}
+ .work-head>p,.campus-head p,.experience-head>p{font-size:15px}
+ .event-info p,.event-note p{font-size:14px}
+ .event-meta{font-size:10px}
+ .badge{font-size:9px}.pill{font-size:11px}.event-bottom a{font-size:12px}
+ .campus-list strong{font-size:15px}.campus-list span{font-size:9px;letter-spacing:.06em}
+ .campus-note{font-size:13px}
+ .timeline article>span{font-size:10px}.timeline h3{font-size:15px}.timeline p{font-size:13px}
+ .education-card>div b{font-size:13px}.education-card>div span{font-size:12px}.skill-chips li{font-size:11px}
+ .team-card p{font-size:14px}.team-side li{font-size:14px}
+ .contact-grid>div+div>p{font-size:15px}.contact-links a{font-size:12px}
+ .account-grid strong{font-size:12px}.account-grid small{font-size:10px}
+ .footer{font-size:11px}
+}
