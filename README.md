@@ -1,6 +1,6 @@
 # Atifakhan Supabase portfolio
 
-A responsive portfolio for **Muhammad Atif** focused on community event organizing, campus partnerships, and developer community building in Peshawar.
+A responsive portfolio for **Atif (Muhammad Atif)** connecting Peshawar community event organizing with a professional background in network infrastructure, cybersecurity, and engineering.
 
 ## Stack
 
@@ -17,15 +17,17 @@ The key in that file is a Supabase publishable key designed for frontend use, no
 
 ## Supabase setup
 
-The migration `supabase/migrations/20261110000100_create_portfolio_events.sql` adds the portfolio events table, enables RLS, grants read access only, and inserts the publicly listed Supabase Meetup at the University of Peshawar. It does not grant anonymous visitors insert, update, or delete access.
+The migrations create the public portfolio-events table and add the sourced University of Peshawar Supabase Meetup and Clerk Meetup Peshawar community spotlight. RLS grants visitors read access to published rows only; there is no anonymous insert, update, or delete access.
 
 The connected project already has this migration applied. For future changes, connect the repository using Supabase's GitHub integration so reviewed migrations can be deployed from the selected branch.
 
 ## Public source and photo credits
 
-- Profile image: [Atifakhan GitHub profile](https://github.com/Atifakhan), served by GitHub avatars.
+- Profile portrait: supplied by the portfolio owner and stored at `assets/atif.jpg`.
+- Professional experience, education, and profile links: [owner's technical portfolio](https://atifakhan.github.io/portfolio/).
 - Event listing and poster: [Supabase Meetup — Peshawar on Luma](https://luma.com/05jqtxqm).
 - Community link: [Supabase Peshawar on LinkedIn](https://www.linkedin.com/company/supabase-peshawar/).
+- Clerk community spotlight and poster: [Clerk Meetup Peshawar on Luma](https://luma.com/6fx4d1g4). The card reports the event listing and does not claim Atif hosted it.
 - Other campus names and the broader organizer role came from the portfolio owner's description. Add event-specific dates, photos, and source links as they are confirmed.
 
 ## Publish the frontend
@@ -36,4 +38,3 @@ The connected project already has this migration applied. For future changes, co
 4. A public Pages site requires repository visibility and an account plan that support Pages. This repository is public by your choice; keep future commits free of secrets and private event materials.
 
 The portfolio frontend is hosted separately from Supabase; Supabase provides the database and API. Supabase's GitHub integration can deploy database migrations and other Supabase resources from the repository.
-

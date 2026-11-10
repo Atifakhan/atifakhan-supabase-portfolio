@@ -1,4 +1,7 @@
 # Sources and content notes
 
-The University of Peshawar Supabase Meetup card uses the public Luma listing for its title, venue, date, collaboration partners, and event poster. The portfolio owner supplied the broader campus footprint and organizer role. Event dates, individual responsibilities, attendance figures, and additional event photos should be added only when confirmed by the owner or an event source.
-
+- The profile portrait is supplied by the portfolio owner and stored as `assets/atif.jpg`.
+- The University of Peshawar Supabase Meetup card uses the public Luma listing for the title, venue, date, collaboration partners, and poster. The broader organizer role and campus footprint were supplied by the portfolio owner; individual campus dates and responsibilities still need event-specific evidence.
+- The Clerk Meetup Peshawar card uses its public Luma listing for the hosts, venue, tools, and poster. It is labeled as a community spotlight and does not claim Atif hosted that listing.
+- Professional education and work history, plus the linked social profiles, were transcribed from the owner's public technical portfolio at https://atifakhan.github.io/portfolio/.
+- Do not add attendance figures, individual responsibilities, or extra event photos without confirmation from the owner or a reliable event source.
