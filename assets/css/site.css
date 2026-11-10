@@ -12,3 +12,6 @@
 
 /* Current role and leadership / contact links */
 .timeline article.current-role>span{display:inline-flex;align-items:center;justify-content:center;align-self:start;width:max-content;padding:5px 8px;background:#e7efd9;border:1px solid #c7d9a9;border-radius:99px;color:#54773a;font-size:7px;letter-spacing:.12em}.timeline article.current-role h3{color:#314d36}.leader-link{color:inherit}.leader-link:hover{color:#537b37}.contact-links{flex-wrap:wrap;row-gap:10px}
+
+.brand-name{font-size:10px;letter-spacing:.12em}.brand-name small{letter-spacing:.14em}
+@media(max-width:650px){.brand-name{font-size:9px;letter-spacing:.1em}}

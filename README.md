@@ -1,6 +1,6 @@
 # Atifakhan Supabase portfolio
 
-A responsive portfolio for **Atif (Muhammad Atif)** connecting Peshawar community event organizing with a professional background in network infrastructure, cybersecurity, and engineering.
+A responsive portfolio for **Muhammad Atif** connecting Peshawar community event organizing with a professional background in network infrastructure, cybersecurity, and engineering.
 
 ## Stack
 
